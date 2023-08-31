@@ -1,0 +1,428 @@
+
+a {
+    text-decoration: none; 
+      
+}
+
+.style-top {
+    background: rgb(247, 247, 247);
+    width: 100%;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    position: relative;
+    
+    background-size: cover;
+    margin: -8px;
+    width: 102.3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nav_left {
+    list-style: none;
+    display: flex;
+}
+
+.link_nav_left {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+
+.nav_right {
+    list-style: none;
+    display: flex;
+}
+
+.link_nav_right  {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .search-box form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 5px;
+  }
+  
+  .search-box button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+
+.logo {
+    
+    margin: -30px;
+    height: 65px;
+    width: 103.8%;
+}
+
+.logo-img {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 25px;
+    
+}
+
+.global-christians-logo {
+    width: 34%;
+    height: 55px;
+    margin: -16px;
+}
+
+
+.link_logo {
+    text-decoration: none;
+    color: black;
+}
+
+.ttli {
+    color: black;
+}
+
+.links-menu {
+    color: white;
+}
+
+.main_menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+.main_ul {
+    list-style: none;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.main_ul li {
+    padding: 1px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    text-align: center;
+ 
+}
+
+
+
+.menu-li .sub_ul {
+    display: none;
+    text-transform: capitalize;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 220px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(-10px); 
+    transition: opacity 0.5s, transform 0.5s;
+    
+}
+
+.menu-li:hover .sub_ul {
+    display: block;
+    opacity: 1; 
+    transform: translateY(0);
+    
+}
+
+.menuselect {
+    display: none;
+}
+
+.sub_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100%;
+}
+
+.sub_ul li {
+    padding: 5px;
+}
+
+.sub_ul li a {
+    color: rgb(241, 241, 241);
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .nav_bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_left {
+        margin: 10px 80px 0 20px;
+        padding: 0;
+    }
+
+    .nav_right {
+        margin: 7px 0px 30px -100px;
+        padding: 0;
+    }
+
+    .nav_right li {
+        margin-left: 0;
+    }
+
+    .nav_bar {
+        display: flex;
+        justify-content: space-around;
+        height: 15vh;
+        width: 148.5%;
+        position: relative;
+        background: rgb(247, 247, 247);
+        background-size: cover;
+        margin: -8px;
+}
+    .search-box {
+        margin-top: 10px;
+    }
+
+    .nav_right li:last-child {
+        margin: 28px 0px -20px -235px;
+    }
+
+    .main_menu {
+        display: none;
+    }
+    
+    .menutop {
+        padding: 40px 0px 20px 0px;
+        margin-left: 50%;
+    }
+
+    .menuselect {
+        display: block;
+        font-weight: bolder;
+        background-color: rgb(247, 247, 247);
+        padding: 5px;
+        border: none;
+    }
+
+    select {
+        color: gray;
+        cursor: pointer;
+      }
+      
+      select:hover,
+      select:focus,
+      select:active,
+      select:checked {
+        color: rgb(8, 8, 8);
+      }
+      
+      select option {
+        color: #333;
+      }
+      
+    
+    
+    .logo {
+        background: rgb(247, 247, 247);
+        margin: -30px;
+        height: 65px;
+        width: 151.5%;
+    }
+
+}
+
+    @media screen and ( max-width: 500px) {
+        .nav_bar {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .nav_left {
+            margin: 10px 80px 0 20px;
+            padding: 0;
+        }
+        
+        .nav_right {
+            margin: 7px 0px 30px -100px;
+            padding: 0;
+        }
+        
+        .nav_right li {
+            margin-left: 0;
+        }
+        
+        .nav_bar {
+            display: flex;
+            justify-content: space-around;
+            height: 15vh;
+            width: 146%;
+            position: relative;
+            background: rgb(247, 247, 247);
+            background-size: cover;
+            margin: -8px;
+        }
+        .search-box {
+            margin-top: 10px;
+        }
+        
+        .nav_right li:last-child {
+            margin: 23px 0px -20px -235px;
+        }
+
+
+        .main_menu {
+            display: none;
+        }
+
+        .menutop {
+            padding: 40px 0px 20px 0px;
+            margin-left: 32%;
+        }
+
+        .menuselect {
+            display: block;
+            font-weight: bolder;
+            background-color: rgb(247, 247, 247);
+            padding: 5px;
+            border: none;
+        }
+
+        select {
+            color: gray;
+          }
+          
+          select:hover,
+          select:focus,
+          select:active,
+          select:checked {
+            color: rgb(8, 8, 8);
+            
+          }
+          
+          select option {
+            color: #333;
+          }
+          
+
+        .logo {
+            background: rgb(247, 247, 247);
+            margin: -30px;
+            height: 65px;
+            width: 151%;
+        }
+
+}
+
+    @media screen and (max-width: 375px) {
+        .nav_bar {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav_left {
+            margin: 10px 80px 0 20px;
+            padding: 0;
+        }
+
+        .nav_right {
+            margin: 7px 0px 30px -100px;
+            padding: 0;
+        }
+
+        .nav_right li {
+            margin-left: 0;
+        }
+
+        .nav_bar {
+            display: flex;
+            justify-content: space-around;
+            height: 15vh;
+            width: 178%;
+            position: relative;
+            background: rgb(247, 247, 247);
+            background-size: cover;
+            margin: -8px;
+    }
+        .search-box {
+            margin-top: 10px;
+        }
+
+        .nav_right li:last-child {
+            margin: 23px 0px -20px -235px;
+        }
+
+        .main_menu {
+            display: none;
+        }
+        
+        .menutop {
+            padding: 40px 0px 20px 0px;
+            margin-left: 32%;
+        }
+
+        .menuselect {
+            display: block;
+            font-weight: bolder;
+            background-color: rgb(247, 247, 247);
+            padding: 5px;
+            border: none;
+        }
+
+        select {
+            color: gray;
+          }
+          
+          select:hover,
+          select:focus,
+          select:active,
+          select:checked {
+            color: rgb(8, 8, 8);
+            
+          }
+          
+          select option {
+            color: #333;
+          }
+          
+
+        .logo {
+            background: rgb(247, 247, 247);
+            margin: -30px;
+            height: 65px;
+            width: 185.5%;
+            }
+    }
+
+
+

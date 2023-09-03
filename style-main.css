@@ -1,10 +1,12 @@
-body {
+main {
     background: linear-gradient(white 50% ,  rgb(238, 237, 237));
+    padding: 1px;
 }
 
 .mainstyle {
     width: 100%;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topgreengclogo{
@@ -58,7 +60,7 @@ body {
 .dl-first-part, .outros-lk {
     font-size: 15px;
     text-align: justify;
-    padding: 10px;
+    padding: 0px 40px 0px 40px;
     margin-top: 10px;
     
     
@@ -70,10 +72,21 @@ body {
     
 }
 
+.section-module {
+    margin: 75px;
+}
 
+.title-module {
+    font-size: 20px;
+    font-weight: bold;
 
+}
 
-.link-dl-html, .link-dl-pdf, .link-modulos, .link-doc, .link-bibleon, .link-htime{
+.p-molude {
+    font-size: 15px;
+    text-align: justify;
+}
+.link-dl-html, .link-dl-pdf, .link-modulos, .link-doc, .link-bibleon, .link-htime, .link-adobe, .link-module{
     color: rgb(78, 78, 201);
 }
  

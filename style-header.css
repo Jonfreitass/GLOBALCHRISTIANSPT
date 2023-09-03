@@ -231,7 +231,7 @@ a {
         display: block;
         font-weight: bolder;
         background-color: rgb(247, 247, 247);
-        padding: 5px;
+        padding: 10px;
         border: none;
     }
 
@@ -314,7 +314,7 @@ a {
             display: block;
             font-weight: bolder;
             background-color: rgb(247, 247, 247);
-            padding: 5px;
+            padding: 10px;
             border: none;
         }
 
@@ -395,7 +395,7 @@ a {
             display: block;
             font-weight: bolder;
             background-color: rgb(247, 247, 247);
-            padding: 5px;
+            padding: 10px;
             border: none;
         }
 
@@ -420,7 +420,7 @@ a {
             background: rgb(247, 247, 247);
             margin: -30px;
             height: 65px;
-            width: 185.5%;
+            width: 184%;
             }
     }
 

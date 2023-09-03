@@ -1,0 +1,121 @@
+footer {
+    background: rgb(48, 45, 45);
+    width: 100%;
+    height: 400px;
+    padding: 20px 0px;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.one_third {
+    float: left;
+    text-align: center;
+    padding: 0px 18px 0px 18px;
+    width: 30%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-footer {
+    width: 100%;
+}
+
+.link-footer{
+color: rgb(193, 193, 255);
+}
+
+@media screen and (max-width: 1024px) {
+
+    footer {
+        background: rgb(48, 45, 45);
+        width: 100%;
+        height: 400px;
+        padding: 20px 0px;
+        color: blanchedalmond;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        }
+    
+        .one_third {
+        float: left;
+        text-align: center;
+        padding: 0px 18px 0px 18px;
+        width: 29%;
+        }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    footer {
+        background: rgb(48, 45, 45);
+        width: 147%;
+        height: 400px;
+        padding: 20px 0px;
+        color: blanchedalmond;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        }
+    
+        .one_third {
+        float: left;
+        text-align: center;
+        padding: 0px 18px 0px 18px;
+        width: 30%;
+        }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    footer {
+        background: rgb(48, 45, 45);
+        width: 144%;
+        height: 625px;
+        padding: 20px 0px;
+        color: blanchedalmond;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        }
+    
+        .one_third {
+        float: left;
+        text-align: center;
+        padding: 0px 18px 0px 18px;
+        width: 26%;
+        }
+
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    footer {
+    background: rgb(48, 45, 45);
+    width: 177%;
+    height: 625px;
+    padding: 20px 0px;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    }
+
+    .one_third {
+    float: left;
+    text-align: center;
+    padding: 0px 18px 0px 18px;
+    width: 25%;
+    }
+
+}
